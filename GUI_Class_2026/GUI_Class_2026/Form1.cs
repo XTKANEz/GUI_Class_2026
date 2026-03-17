@@ -16,5 +16,10 @@ namespace GUI_Class_2026
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
