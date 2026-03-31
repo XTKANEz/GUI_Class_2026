@@ -30,5 +30,27 @@ namespace GUI_Class_2026
             else if (btn_ClickMe.Text =="我已經被點擊過了")
                      btn_ClickMe.Text ="按我一下";
         }
+
+        private void btn_ChangeLabel_Click(object sender, EventArgs e)
+        {
+            lab_ChangeLabel.Text = "按鈕被按過了";
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void btn_counter_Click(object sender, EventArgs e)
+        {
+            String count = lab_counter.Text;
+            int sum = int.Parse(count)+1;
+            lab_counter.Text = sum.ToString();
+        }
     }
 }
