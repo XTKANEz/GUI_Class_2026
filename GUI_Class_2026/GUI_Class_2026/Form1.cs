@@ -38,7 +38,7 @@ namespace GUI_Class_2026
 
         private void label2_Click(object sender, EventArgs e)
         {
-
+          
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -51,6 +51,17 @@ namespace GUI_Class_2026
             String count = lab_counter.Text;
             int sum = int.Parse(count)+1;
             lab_counter.Text = sum.ToString();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            new FormBtnBigger().Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            string str = textBox1.Text;
+            label2.Text = str;
         }
     }
 }
