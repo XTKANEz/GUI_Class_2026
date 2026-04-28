@@ -68,5 +68,10 @@ namespace GUI_Class_2026
         {
             new FormCalculator().Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            new MidExam_CtoF().Show();
+        }
     }
 }

@@ -64,6 +64,12 @@
     <Compile Include="FormCalculator.Designer.cs">
       <DependentUpon>FormCalculator.cs</DependentUpon>
     </Compile>
+    <Compile Include="MidExam_CtoF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MidExam_CtoF.Designer.cs">
+      <DependentUpon>MidExam_CtoF.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -74,6 +80,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormCalculator.resx">
       <DependentUpon>FormCalculator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MidExam_CtoF.resx">
+      <DependentUpon>MidExam_CtoF.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
