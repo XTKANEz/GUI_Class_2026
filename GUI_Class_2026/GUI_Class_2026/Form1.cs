@@ -73,5 +73,10 @@ namespace GUI_Class_2026
         {
             new MidExam_CtoF().Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            new FormTimes().Show();
+        }
     }
 }

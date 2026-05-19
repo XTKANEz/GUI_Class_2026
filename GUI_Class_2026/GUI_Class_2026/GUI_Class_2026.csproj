@@ -64,6 +64,12 @@
     <Compile Include="FormCalculator.Designer.cs">
       <DependentUpon>FormCalculator.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormTimes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTimes.Designer.cs">
+      <DependentUpon>FormTimes.cs</DependentUpon>
+    </Compile>
     <Compile Include="MidExam_CtoF.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +86,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormCalculator.resx">
       <DependentUpon>FormCalculator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTimes.resx">
+      <DependentUpon>FormTimes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MidExam_CtoF.resx">
       <DependentUpon>MidExam_CtoF.cs</DependentUpon>
