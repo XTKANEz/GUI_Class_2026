@@ -41,6 +41,8 @@
             this.btn_Calculator = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -144,7 +146,7 @@
             // 
             // btn_Calculator
             // 
-            this.btn_Calculator.Location = new System.Drawing.Point(296, 229);
+            this.btn_Calculator.Location = new System.Drawing.Point(296, 214);
             this.btn_Calculator.Name = "btn_Calculator";
             this.btn_Calculator.Size = new System.Drawing.Size(152, 49);
             this.btn_Calculator.TabIndex = 8;
@@ -154,7 +156,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(545, 350);
+            this.button3.Location = new System.Drawing.Point(545, 269);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(168, 51);
             this.button3.TabIndex = 9;
@@ -164,7 +166,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(296, 310);
+            this.button4.Location = new System.Drawing.Point(296, 269);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(152, 65);
             this.button4.TabIndex = 10;
@@ -172,11 +174,33 @@
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(296, 340);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(152, 59);
+            this.button5.TabIndex = 11;
+            this.button5.Text = "CheckBox";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(296, 405);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(152, 58);
+            this.button6.TabIndex = 12;
+            this.button6.Text = "Layout";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(868, 519);
+            this.Controls.Add(this.button6);
+            this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.btn_Calculator);
@@ -213,6 +237,8 @@
         private System.Windows.Forms.Button btn_Calculator;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
     }
 }
 
